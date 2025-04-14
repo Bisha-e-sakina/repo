@@ -1,0 +1,42 @@
+
+
+.gallery {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.gallery-row img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-row img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.fot{
+    position: relative;
+
+    color: white;
+    /* padding: 20px; */
+    text-align: center;
+    /* margin-top: 50px; */
+    
+}
+
+    

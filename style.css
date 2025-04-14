@@ -1,0 +1,217 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+.body{
+    background-color: antiquewhite;
+}
+
+
+.nav-item{
+    background-color: goldenrod;
+    font-size: medium;
+}
+.navbar{
+    background-color:  rgb(218, 165, 32);
+    color: goldenrod;
+}
+
+/* home.html */
+.background  p {
+    text-align: center;
+}
+.background h1{
+    text-align: center;
+}
+.strat container col-6 h3{
+    color: goldenrod;
+
+}
+.container2 text-center{
+    background-color:  rgb(218, 165, 32);
+}
+
+/* about.html */
+
+.background-chem{
+    position: relative;
+}
+
+.background-chem img{
+    position: relative;
+}
+
+.background-chem p{
+    position: absolute;
+    top: 50%;   
+    color: white;
+    font-size: 40px;
+    left: 12%;
+    text-align: center;
+}
+
+/* chemitsry.html */
+
+.background-phy img{
+    width: 100%;
+    height:700px;
+
+
+}
+.background-phy p{
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+    font-size: medium;
+    
+    
+}
+.backgro{
+    background-color:  goldenrod;
+    
+}
+.main-container{
+    background-color: rgb(253, 241, 226);
+
+}
+
+
+.cl{
+    background-color: rgb(224, 188, 138);
+}
+
+.column {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ /* about .html */
+ .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container1  h1{
+    background-color: goldenrod;
+}
+h1 {
+    color: #333;
+}
+p, ul {
+    font-size: 18px;
+    color: #666;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+.container-fluid {
+    display: inline;
+}
+/* Gallery Section */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+  
+
+  }
+  
+  .gallery1 img {
+    width: 470px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    display: inline;
+    padding-top: 4.5%;
+    
+  }
+  .gallery2 img {
+    width: 470px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    display: inline;
+  }
+  .gallery3 img {
+    width: 470px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    display: inline;
+    padding-bottom: 10px;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  
+    .col {
+      max-width: 100%;
+      margin: 10px 0;
+    }
+  
+    .container2 h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .background h1 {
+      font-size: 1.5rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .btn-primary {
+      padding: 8px;
+    }
+  
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* events.html */
+
+  .background events img{
+    width: 100%;
+    height: 800px;
+
+  }
+
+  /* litrature.html */
+
+  .text-overlay {
+    position: absolute;
+    top: 40%;
+    color: white;
+    text-align: left;
+    /* text-shadow: 2px 2px 4px white; */
+    font-size: 80%;
+  }
+  

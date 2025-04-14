@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="shortcut icon" href="images/Nobel_PrizeLogo.png" type="image/x-icon">
+  <style>
+    .background {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+    .background img {
+      width: 100%;
+      height: auto;
+    }
+    .background h1, .background p {
+      position: relative;
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+      /* background: rgba(0, 0, 0, 0.5); */
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .spaced-section {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    h1{
+        margin-bottom: 10px;
+        color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <nav></nav>
+  <section class="spaced-section">
+    <div class="background">
+      <img src="images/image2.jpg" class="img-fluid">
+      <h1>Awarded for "the greatest benefit to humankind"</h1><br>
+      <p>Between 1901 and 2024, the Nobel Prizes have been awarded 627 times to 1,012 laureates.</p>
+    </div>
+  </section>
+  <hr>
+
+  <div class="container spaced-section">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3 class="text-warning">FAQ</h3>
+        <h1>Who selects the Nobel Prize laureates?</h1>
+        <p>Hundreds or thousands of nominations are received eve ry year from members of academies, university professors, scientists, and more.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/laureates.webp" class="img-fluid" alt="Laureates">
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="container text-center bg-warning p-3">
+    <h1>Prize Categories</h1>
+  </div>
+  <hr>
+
+  <div class="container spaced-section">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h2>Chemistry</h2>
+        <img src="images/chemistry prize.jpg" class="img-fluid" alt="Chemistry Prize">
+      </div>
+      <div class="col-md-4">
+        <h2>Physics</h2>
+        <img src="images/phy prize.jpg" class="img-fluid" alt="Physics Prize">
+      </div>
+      <div class="col-md-4">
+        <h2>Medicine</h2>
+        <img src="images/medical prize.jpg" class="img-fluid" alt="Medical Prize">
+      </div>
+    </div>
+  </div>
+
+  <div class="container spaced-section">
+    <div class="row text-center">
+      <div class="col-md-6">
+        <h2>Literature</h2>
+        <img src="images/litterature prize.webp" class="img-fluid" alt="Literature Prize">
+      </div>
+      <div class="col-md-6">
+        <h2>Peace</h2>
+        <img src="images/peace prize.webp" class="img-fluid" alt="Peace Prize">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container spaced-section">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1>Nobel Prize Medal</h1>
+        <p>The front of the gold Nobel Prize medals depict Alfred Nobel. The reverse varies according to the institution awarding the prize.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/medal.webp" class="img-fluid" alt="Nobel Medal">
+      </div>
+    </div>
+  </div>
+  
+  <div class="container spaced-section">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1>The Prize Amount</h1>
+        <p>The current amount is at SEK 11 million per full Nobel Prize. A Nobel Prize can be awarded to up to three laureates.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/prize amount.jpg" class="img-fluid" alt="Prize Amount">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container bg-light p-4 spaced-section">
+    <h2 class="text-center">Sign up for the monthly newsletter</h2>
+    <p class="text-center">Join thousands of global subscribers enjoying the Nobel Prize updates.</p>
+    <form class="text-center">
+      <div class="mb-3">
+        <label for="email" class="form-label">Your email</label>
+        <input type="email" class="form-control w-50 mx-auto" id="email" placeholder="Your email" required>
+      </div>
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="consent" required>
+        <label class="form-check-label" for="consent">I agree to the privacy policy.</label>
+      </div>
+      <button type="submit" class="btn btn-warning">Subscribe</button>
+    </form>
+  </div>
+
+  <footer></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

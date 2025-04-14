@@ -1,0 +1,15 @@
+*{
+    font-family: "Playwrite IT Moderna", cursive;
+   
+}
+
+
+.nav-item{
+    background-color: goldenrod;
+    font-size: medium;
+}
+.navbar{
+    background-color:  rgb(218, 165, 32);
+    color: goldenrod;
+}
+

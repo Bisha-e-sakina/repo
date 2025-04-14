@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/Nobel_PrizeLogo.png" type="image/x-icon">
+  <style>
+            *{
+font-family: 'Times New Roman', Times, serif;
+}
+
+    body {
+      font-family: Arial, sans-serif;
+      overflow-x: hidden;
+    }
+    .background img {
+      width: 100%;
+      height: auto;
+    }
+    .container img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .row {
+      margin-bottom: 20px;
+    }
+    @media (max-width: 768px) {
+      h1, h2, h3, p {
+        text-align: center;
+      }
+      .col-md-4, .col-md-6 {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nobel Prize</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="#medal">Medal</a></li>
+          <li class="nav-item"><a class="nav-link" href="#prize">Prize Amount</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <div class="background text-center p-3">
+      <img src="images/image2.jpg" class="img-fluid">
+      <h1>Awarded for “the greatest benefit to humankind”</h1>
+      <p class="container">Between 1901 and 2024, the Nobel Prizes were awarded 627 times to 1,012 people and organizations...</p>
+    </div>
+  </section>
+  <hr>
+
+  <div class="container" id="faq">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <h1>Who selects the Nobel Prize laureates?</h1>
+        <p>Hundreds or thousands of nominations are received for the Nobel Prize every year...</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/laureates.webp" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="container text-center" style="background-color: goldenrod;" id="categories">
+    <h1>Prize Categories</h1>
+  </div>
+  <hr>
+
+  <div class="container mb-5">
+    <div class="row g-4 text-center">
+      <div class="col-md-4">
+        <h2>Chemistry</h2>
+        <img src="images/chemistry prize.jpg" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <h2>Physics</h2>
+        <img src="images/phy prize.jpg" class="img-fluid">
+      </div>
+      <div class="col-md-4">
+        <h2>Medicine</h2>
+        <img src="images/medical prize.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row g-4 text-center">
+      <div class="col-md-6">
+        <h2>Literature</h2>
+        <img src="images/litterature prize.webp" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h2>Peace Prize</h2>
+        <img src="images/peace prize.webp" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="container" id="medal">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <h1>Nobel Prize Medal</h1>
+        <p>The front of the gold Nobel Prize medals depict Alfred Nobel...</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/medal.webp" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="container" id="prize">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <h1>The Prize Amount</h1>
+        <p>The current amount is at SEK 11 million per full Nobel Prize...</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/prize amount.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  
+  <FOOter></FOOter>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
